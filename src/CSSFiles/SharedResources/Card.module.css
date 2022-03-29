@@ -1,0 +1,15 @@
+.ratings{
+    color: rgb(251,130,0);
+}
+.card-1{
+    border: none !important;
+}
+@media only screen and (min-width: 992px){
+    .zoom{
+        transition: transform .3s;
+    }
+    
+    .zoom:hover{
+        transform: scale(1.1);
+    }
+}

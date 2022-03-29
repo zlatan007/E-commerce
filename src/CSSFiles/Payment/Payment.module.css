@@ -1,0 +1,9 @@
+.payment_wrapper {
+  background-color: rgb(234, 237, 237);
+}
+
+@media only screen and (min-width: 992px) {
+  .order_card {
+    order: 2;
+  }
+}

@@ -1,0 +1,29 @@
+.arrow {
+  background-color: transparent;
+}
+
+.arrow_svg {
+  font-size: 28px;
+}
+
+@media only screen and (min-width: 768px) and (max-width: 992px) {
+  .block_input {
+    width: 80px !important;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .zoom {
+    transition: transform 0.5s;
+  }
+
+  .zoom:hover {
+    transform: scale(1.1);
+  }
+}
+
+@media only screen and (min-width: 400px) and (max-width: 767px) {
+  .empty_cart {
+    height: 50vh;
+  }
+}

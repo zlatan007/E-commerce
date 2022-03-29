@@ -1,0 +1,13 @@
+.main_wrapper {
+  background-color: rgb(234, 237, 237);
+}
+
+.section {
+  height: 25vh;
+  background: url("../../Asset/Random/gmHGJR.jpg");
+}
+
+.input_search:focus {
+  box-shadow: none;
+  border-color: rgba(0, 0, 0, 0.125);
+}
